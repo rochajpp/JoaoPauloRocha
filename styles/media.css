@@ -1,0 +1,272 @@
+@media (max-width: 360px){
+    .card{
+        padding: 4rem;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .menu-on .icon{
+        display: none;
+    }
+
+    .aboutDescription{
+        font-size: 1rem;
+    }
+
+    .titleAbout{
+        text-align: center;
+    }
+
+    .photo{
+        align-items: center;
+    }
+
+    .photo img{
+        width: 12rem;
+    }
+    
+    .buttons-home{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 318px){
+    .tec img{
+        width: 2rem;
+    }
+}
+
+@media screen and (min-width: 318px){
+    .tec img{
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 382px){
+    .card{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 361px){
+    .photo img{
+        width: 15rem;
+    }
+}
+
+/*Media feita para responsividade de CELULARES*/
+@media screen and (max-width: 1020px){
+    
+    .header nav{
+        display: none;
+    }
+
+    .logoArea h1{
+        display: none;
+    }
+
+    .primaryLogo{
+        display: none;
+    }
+
+    .logoResp{
+        display: block;
+    }
+
+    .header{
+        justify-content: center;
+    }
+
+    .logoHome{
+        display: none;
+    }
+
+
+    .home h1{
+        font-size: 2.4rem;
+    }
+
+    .home h2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #h1SecPart{
+        display: none;
+    }
+
+    #point{
+        display: none;
+    }
+   
+
+    .aboutDescription{
+        align-items: center;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .tech{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slide{
+        height: 20rem;
+        overflow: scroll;
+        width: 15rem;
+    
+        
+    }
+
+    .slide::-webkit-scrollbar {
+        width: 0px; /* Largura da scrollbar */
+      }     
+
+    .cardSlide{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .infoContact div {
+        justify-content: center;
+    }
+
+    .boxExperience{
+        flex-direction: column;
+    }
+
+    .boxExperience ul{
+        flex-direction: column;
+    }
+
+}
+
+
+/*Media para que quando a página for aberta em COMPUTADOR*/
+@media screen and (min-width: 897px){
+    .menuArea{
+        display: none;
+    }
+
+    .home h1{
+        font-size: 2.5rem;
+    }
+
+    .home h2{
+        font-size: 2rem;
+    }
+   
+    .menu{
+        overflow: visible;
+    }
+
+    .slide{
+        padding: 2rem;
+    }
+    .cardSlide{
+        width: 15rem;
+        height: 18rem;
+    }
+
+    .boxExperience ul{
+        gap: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 760px){
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutDescription{
+        align-items: center;
+    }
+
+
+}
+
+/*Screnn para ajustar o tamanho do pop-up do projeto de acordo com a tela */
+@media screen and (max-width: 560px){
+    .b1, .b2, .b3{
+        min-width: 50%;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width: 561px){
+    .b1, .b2, .b3{
+        width: 50%;
+    }
+
+}
+/*=====================================================================*/
+
+/*Media feita para dimensão ENTRE a de CELULAR e a de COMPUTADOR*/
+@media screen and (min-width: 893px) and (max-width: 1226px){
+    .cards{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 922px){
+    header{
+        padding: 1rem;
+    }
+
+    .icon{
+        width: 2rem;
+    }
+    .desc{
+        width: 10rem;
+    }
+
+    .home-container img{
+        display: none;
+    }
+   
+
+    .home-container h1{
+        font-size: 2.2rem;
+    }
+
+    .menuOn .menu-icon .topBar{
+        transform: rotate(45deg);
+        animation: mergeAnimation 0.1s ease-in-out forwards;  
+    }
+
+
+    @keyframes mergeAnimation {
+        0% {
+          top: 0;
+          
+        }
+        100% {
+          top: 4px;
+          
+        }
+    }
+}
+
+/*Media para que quando a página for aberta em COMPUTADOR*/
+@media screen and (min-width: 924px){
+    .home-container h1{
+        font-size: 3rem;
+    }
+    .buttons-home{
+        align-items: center;
+    }
+    
+}

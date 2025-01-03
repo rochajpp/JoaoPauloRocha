@@ -1,0 +1,75 @@
+{
+    "header":{
+        "textClose": "Fechar",
+        "homeMenu": "Início",
+        "aboutMenu": "Sobre",
+        "projectsMenu": "Projetos",
+        "knowledgeMenu": "Conhecimento",
+        "experienceMenu": "Experiêcias",
+        "contactMenu": "Contatos"
+    },
+    
+    "sectionHome":{
+        "h1Pri": "Desenvolvendo soluções inovadoras com paixão e precisão para impactar positivamente o mundo digital",
+        "office": "Desenvolvedor FullStack",
+        "seeProject": "Ver projetos",
+        "aboutMe": "Sobre mim",
+        "ou": "ou" 
+    },
+    
+    "sectionAbout":{
+        "titleAbout": "Sobre mim",
+        "desc1": "Meu nome é João Paulo, sou um desenvolvedor FullStack, apaixonado por programação e desafios. Sou muito dedicado e motivado, sempre busco experiência e conhecimento, gosto de aprender cada vez mais. Atualmente, estou estudando Análise e Desenvolvimento de Sistemas e, com um pouco mais de 1 ano de experiência profissional, trabalhando em empresas e desenvolvendo alguns projetos, adquiri habilidades sólidas em Node.js, HTML, CSS, JavaScript, React.js, ASP.NET Core, MySQL, SQL Server e MongoDB.",
+        "desc2": "Estou animado em fazer parte de uma equipe onde posso colaborar com minhas habilidades e, principalmente, adquirir mais experiência e conhecimento.",
+        "desc3": "Meu objetivo é evoluir e crescer profissionalmente, utilizando minhas habilidades para sempre fazer a diferença.",
+        "descButtonAbout": "Abrir CV"
+    },
+    
+    "sectionProjects":{
+        "titleProjects": "Projetos",
+    
+        "descProject1": "Projeto de clone do site da Apple feito por mim, responsivo. Tomei como base o design do site da Apple na época em que iniciei este projeto.",
+    
+        "descProject2": "Aplicativo de astronomia em Node.js usando algumas API's, principalmente as API's da NASA. O aplicativo exibe algumas notícias e curiosidades sobre o universo e a Terra.",
+    
+        "descProject3": "Meu antigo portfólio, fiz de uma maneira mais 'relaxada', usando HTML, CSS e JavaScript para falar sobre mim e mostrar meus projetos.",
+        "repositories": "Repositórios",
+        "descButtonCode": "Ver código",
+        "descButtonProject": "Ver projeto"
+    },
+    
+    "sectionKnowledge": {
+        "subtitleNode": "Plataforma de desenvolvimento",
+        "subtitleHTML": "Linguagem de marcação",
+        "subtitleCSS": "Linguagem de estilo",
+        "subtitleJs": "Linguagem de programação",
+        "dbTitle": "Banco de dados"
+    },
+
+
+    "sectionExperience":{
+        "titleExperience": "Experiência",
+        "titleHeaderExp1": "Suporte Técnico",
+        "titleHeaderExp2": "Desenvolvedor FullStack",
+        "placeExp1": "Universidade 7 de Setembro",
+        "placeExp2": "Faculdade Ari de Sá",
+        "aboutExp": "Sobre",
+        "descExp1": "Consertos de máquinas e suporte na infraestrutura, redes e servidores.",
+        "descExp2": "Desenvolvimento FullStack de softwares com ASP.NET Core, Node.js e MySQL.",
+        "skillExp": "Competências",
+        "skill1": "Conserto de computadores(Hardware)",
+        "skill2": "Redes",
+        "skill3": "Servidores",
+        "periodExp": "Período",
+        "nowPeriod": "atual"
+    },
+
+    
+    "sectionContact":{
+        "titleContact": "Contato",
+        "labelName": "Nome:",
+        "labelEmail": "E-mail",
+        "buttonForm": "Enviar",
+        "textMessage": "Sua mensagem..."
+    }
+    }

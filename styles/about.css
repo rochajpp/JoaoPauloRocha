@@ -1,0 +1,83 @@
+#about{
+    padding: 2rem;
+}
+
+.about{
+    gap: 4rem;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.info-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-profile a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+}
+
+.contact-profile a ion-icon{
+    font-size: 1.5rem;
+}
+
+.photo img{
+    
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+
+#logo-linkedin:hover{
+    color: rgb(0, 72, 255);
+}
+
+#logo-github:hover{
+    color: rgb(41, 41, 41);
+}
+
+.aboutDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutDescription h1{
+    font-size: 2.8rem;
+}
+
+.cvButton{
+    text-decoration: none;
+}
+
+.aboutDescription button{
+    padding: 1rem 4rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    transition: 0.5s;
+}
+
+.aboutDescription button:hover{
+    background-color: var(--blackTheme);
+    color: white;
+    border-color: white;
+}
+
+.desc1, .desc2, .desc3{
+    font-weight: bold;
+}

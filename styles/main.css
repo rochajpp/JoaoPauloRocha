@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+:root{
+    --blackTheme: rgb(41, 41, 41);
+}
+
+body, html{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(235, 235, 235); 
+}
+
+#backgroundImage{
+    position: fixed;
+    z-index: -100;
+    height: 100%;
+    filter: blur(4px) contrast(40%);
+}
+
+.activeHeader{
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.content{
+    display: flex;
+}
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: var(white);
+    
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 5rem;
+    background-color: var(--blackTheme); 
+}
+
+.menu-interface{
+    top: -100vh;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--blackTheme);
+    transition: 0.8s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    z-index: 100;
+}
+.menu-interface h1{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #ccc
+}
+
+.menu-interface p{
+    position: absolute;
+    bottom: 1rem;
+    color: #ccc;
+}
+
+.menu-interface nav ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-interface nav ul a{
+    font-size: 1.4rem;
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu-interface nav ul a:hover{
+    letter-spacing: 0.2rem;
+}
+
+.menu-on .menu-interface{
+    top: 0;
+}
+
+select{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    width: 6.5rem;
+}
+
+select option{
+    color: black;
+}
+
+button{
+    font-weight: bold;
+}

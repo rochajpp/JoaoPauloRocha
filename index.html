@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Defining styles links CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/media.css">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <link rel="stylesheet" type="text/css" href="styles/about.css">
+    <link rel="stylesheet" type="text/css" href="styles/projects.css">
+    <link rel="stylesheet" type="text/css" href="styles/knowledge.css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/experience.css">
+    <!-- <link rel="stylesheet" type="text/css" href="styles/popupLanguage.css"> -->
+
+    <!--Defining the logo link-->
+    <link rel="icon" type="text/css" href="img/logoBlack.png">
+
+    <!--Defining the Poppins font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Home | João Paulo Rocha</title>
+</head>
+
+<body>
+    <div class="project-info">
+        <div class="b1">
+            <div class="container-box">
+                <ion-icon onclick="closeInfoProject()" name="close-outline"></ion-icon>
+                <h1 class="project-name">Apple Clone</h1>
+                <p class="descProject1">
+                    Projeto de clone do site da Apple feita por mim,
+                    responsivo, peguei como base o design do site da
+                    Apple na época em que comecei esse projeto.
+                </p>
+                <div class="tec">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                </div>
+                <div class="card-buttons">
+                    <a href="https://github.com/rochajpp/appleClone" target="_blank"><button class="descButtonCode">Ver
+                            código</button></a>
+                    <a href="https://rochajpp.github.io/appleClone/" target="_blank"><button
+                            class="descButtonProject">Ver projeto</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="b2">
+            <div class="container-box">
+                <ion-icon onclick="closeInfoProject()" name="close-outline"></ion-icon>
+                <h1 class="project-name">API Nasa</h1>
+                <p class="descPoject2">
+                    Aplicação em Node.js de astronomia utilizando algumas API's
+                    utilizando principalmente as API's da nasa.
+                    <br>
+                    A aplicação mostra algumas novidades e curiosidades sobre o
+                    universo e a Terra.
+                </p>
+                <div class="tec">
+                    
+                  
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+          
+          
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                </div>
+                <div class="card-buttons">
+                    <a href="https://github.com/rochajpp/apiNasa" target="_blank"><button class="descButtonCode">Ver
+                            código</button></a>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7082376560846020608/?originTrackingId=F05KRin%2BQWKKOpl4l9V9Pw%3D%3D"
+                        target="_blank"><button class="descButtonProject">Ver projeto</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="b3">
+            <div class="container-box">
+                <ion-icon onclick="closeInfoProject()" name="close-outline"></ion-icon>
+                <h1 class="project-name">Portfólio</h1>
+                <p class="descProject3">
+                    Meu portfolio antigo, fiz de uma forma
+                    mais "descontraída" utilizando HTML, CSS e JavaScript
+                    falando sobre mim e mostrando meus projetos.
+                </p>
+                <div class="tec">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                        <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                </div>
+                <div class="card-buttons">
+                    <a href="https://github.com/rochajpp/Portfolio" target="_blank"><button class="descButtonCode">Ver
+                            código</button></a>
+                    <a href="https://rochajpp.github.io/Portfolio/" target="_blank"><button
+                            class="descButtonProject">Ver projeto</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-interface">
+        <h1>Menu</h1>
+        <nav>
+            <ul>
+                <a href="#about" class="menu-a about-menu">
+                    <li>Sobre mim</li>
+                </a>
+                <a href="#projects" class="menu-a projects-menu">
+                    <li>Projetos</li>
+                </a>
+                <a href="#knowledge" class="menu-a knowledge-menu">
+                    <li>Conhecimentos</li>
+                </a>
+                <a href="#experience" class="menu-a experience-menu">
+                    <li>Experiências</li>
+                </a>
+                <a href="#contact" class="menu-a contact-menu">
+                    <li>Contato</li>
+                </a>
+                <br>
+                <select id="option">
+                    <option value="pt-br" id="pt-br">Português</option>
+                    <option value="en" id="en">English</option>
+                    <option value="norsk" id="norsk">Norsk</option>
+                    <option value="nihon" id="nihon">日本</option>
+                    <option value="deutsch" id="deutsch">Deutsch</option>
+                    <option value="es" id="es">Español</option>
+                </select>
+            </ul>
+        </nav>
+
+        <p>©João Paulo Rocha 2023</p>
+    </div>
+    <div class="Main">
+        <header>
+            <a class="logo-full" href="">
+                <img class="white-logo icon" src="img/logoWhite.png">
+                <img class="black-logo icon" src="img/logoBlack.png">
+                <img class="white-logo desc" src="img/joaoPauloRochaWhite.png">
+                <img class="black-logo desc" src="img/joaoPauloRocha.png">
+            </a>
+            <a class="menu-option" onclick="activeMenu()">
+                <div class="menu default-menu">
+                    <text class="textClose">Fechar</text>
+                    <text class="textMenu">Menu</text>
+                    <div class="menu-icon">
+                        <div class="topBar"></div>
+                        <div class="bottomBar"></div>
+                    </div>
+                </div>
+            </a>
+        </header>
+        <section id="home">
+            <div class="home-container">
+                <div class="apresent-part">
+                    <h2>João Paulo Rocha</h2>
+                    <h1 class="office">Desevolvedor de softaware FullStack</h1>
+                    <h2 class="h1Pri">
+                        Desenvolvendo soluções inovadoras com paixão
+                        e precisão para impactar positivamente o mundo digital.
+                    </h2>
+                    <br>
+                    <div class="buttons-home">
+                        <a class="seeProject" href="#projects">Ver projetos</a>
+                        <p class="ou">ou</p>
+                        <a class="aboutMe" href="#about">Sobre mim</a>
+                    </div>
+                </div>
+                <img src="img/pc.png">
+            </div>
+        </section>
+        <section id="about">
+            <div class="content about">
+                <div class="photo">
+                    <img class="perfil" src="img/profile.png">
+                    <div class="info-profile">
+                        <h3>João Paulo Medeiros Rocha</h3>
+                        <p>21 anos</p>
+                        <div class="contact-profile">
+                            <a href="mailto:rochajp000@outlook.com"><ion-icon name="mail-outline"></ion-icon>
+                                rochajp000@outlook.com</a>
+                            <a href="https://github.com/rochajpp" target="__blank"><ion-icon
+                                    name="logo-github"></ion-icon> rochajpp</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="aboutDescription">
+                    <h1 class="titleAbout">Sobre mim</h1>
+                    <br>
+                    <p class="desc1">
+                        Meu nome é João Paulo, sou desenvolvedor FullStack, com uma paixão por programação e desafios.
+                        Sou muito dedicado e motivado, busco sempre experiência e conhecimento, gosto de aprender sempre
+                        mais.
+                        Atualmente estou cursando Análise e Desenvolvimento de Sistemas, e com um pouco mais de 1 ano de
+                        experiêcia profissional, trabalhando em empresas e desenvolvendo alguns projetos, tenho
+                        desenvolvido
+                        habilidades sólidas em Node.js, HTML, CSS, JavaScript, React.js, Blazor, MySQL e MongoDB.
+                    </p>
+                    <br>
+                    <p class="desc2">
+                        Estou animado em fazer parte de uma equipe onde eu possa colaborar com minhas habilidade e
+                        principalmente obter mais experiência e conhecimentos.
+                    </p>
+                    <br>
+                    <p class="desc3">Minha meta é evoluir e crescer profissionalmente usando das minhas habilidade para
+                        fazer a difereça sempre.</p>
+                    <br>
+                    <a href="files/Curriculo.pdf" target="_blank" class="cvButton"><button class="descButtonAbout">Abrir
+                            Currículo</button></a>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="content projects">
+                <h1 class="titleProjects">Projetos</h1>
+                <br>
+                <div class="cards">
+                    <div onclick="infoProject(1)" class="card card1">
+                        <h1 class="titleProject1">Apple Clone</h1>
+                        <a>Click me</a>
+                    </div>
+                    <div onclick="infoProject(2)" class="card card2">
+                        <h1 class="titleProject2">API Nasa</h1>
+
+                        <a>Click me</a>
+                    </div>
+                    <div onclick="infoProject(3)" class="card card3">
+                        <h1 class="titleProject3">Portfolio</h1>
+                      
+                        <a>Click me</a>
+                    </div>
+                </div>
+                <br>
+                <a href="https://github.com/rochajpp?tab=repositories" target="_blank">
+                    <h2 class="repositories">Repositórios</h2>
+                </a>
+            </div>
+        </section>
+        <section id="knowledge">
+            <div class="content knowledge">
+                <div class="certficates">
+
+                </div>
+                <div class="technologies">
+                    <div class="tech backEnd">
+                        <h1>Back-end</h1>
+                        <br>
+                        <div class="slide">
+                            <div class="cardSlide">
+                                <img class="netcore"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
+                                <br>
+                                <h3> Microsoft .NET Core</h3>
+                                <p>Framework</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="nodejs"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                                <br>
+                                <h3>Node.js</h3>
+                                <p class="subtitleNode">Plataforma de desenvolvimento</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="express"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />
+                                <br>
+                                <h3>Express</h3>
+                                <p>Framework</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="spring"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+                                <br>
+                                <h3>Spring Boot</h3>
+                                <p>Framework</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech frontEnd">
+                        <h1>Front-end</h1>
+                        <br>
+                        <div class="slide">
+                            <div class="cardSlide">
+                                <img class="html"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+
+                                <h3>HTML</h3>
+                                <p class="subtitleHTML">Linguagem de marcação</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="css"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+
+                                <h3>CSS</h3>
+                                <p class="subtitleCSS">Linguagem de estilo</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="js"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+
+                                <h3>JavaScript</h3>
+                                <p class="subtitleJs">Linguagem de programação</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="react"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+
+                                <h3>React.js</h3>
+                                <p>Framework</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech database">
+                        <h1 class="dbTitle">Banco de Dados</h1>
+                        <br>
+                        <div class="slide">
+                            <div class="cardSlide">
+
+                                <img class="mongodb"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
+                                <h3>MongoDB</h3>
+                                <p>SGBD-NoSQL</p>
+                            </div>
+                            <div class="cardSlide">
+
+                                <img class="mysql"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+
+                                <h3>MySQL</h3>
+                                <p>SGBDR</p>
+                            </div>
+                            <div class="cardSlide">
+                                <img class="js" src="img/sqlServer.png" />
+
+                                <h3>SQL Server</h3>
+                                <p>SGBDR</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <h1 class="titleExperience">Experiência</h1>
+            <div class="content experience">
+                <div class="boxExperience">
+                    <img src="img/uni7-logo.png">
+                    <div class="infoExperience">
+                        <h1 class="titleHeaderExp1">Suporte Técnico</h1>
+                        <h2 class="placeExp1">Universidade 7 de Setembro</h2>
+                        <h2 class="aboutExp1">Sobre</h2>
+                        <p class="descExp1">
+                            Consertos de máquinas e suporte na infraestrutura, redes e servidores.
+                        </p>
+                        <h2 class="skillsExp1">Competências</h2>
+                        <ul>
+                            <li class="skill1">Conserto de computadores(Hardware)</li>
+                            <li class="skill2">Redes</li>
+                            <li class="skill3">Servidores</li>
+                        </ul>
+                        <h2 class="periodExp1">Período</h2>
+                        <p>2022 - 2023</p>
+                    </div>
+                </div>
+                <div class="boxExperience">
+                    <img src="img/ari-logo.png">
+                    <div class="infoExperience">
+                        <h1 class="titleHeaderExp2">Desenvolvedor FullStack</h1>
+                        <h2 class="placeExp2">Faculdade Ari de Sá</h2>
+                        <h2 class="aboutExp2">Sobre</h2>
+                        <p class="descExp2">Desenvolvimento FullStack de softwares com ASP.NET Core, Node.js e MySQL.
+                        </p>
+                        <h2 class="skillsExp2">Competências</h2>
+                        <ul>
+                            <li>ASP.NET Core MVC</li>
+                            <li>Blazor</li>
+                            <li>C#</li>
+                            <li>Node.js</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <h2 class="periodExp2">Período</h2>
+                        <p>2023 - <text class="nowPeriod">atual</text></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="titleContact">Contato</h1>
+            <div class="content contact">
+                <form action="https://formsubmit.co/contato@joaopaulorocha.com" method="POST">
+                    <div class="infoMessage">
+                        <div class="info infoName">
+                            <label class="labelName">Nome:</label>
+                            <input name="name" type="text" class="name" id="name" required>
+                        </div>
+                        <div class="info infoEmail">
+                            <label class="labelEmail">E-mail:</label>
+                            <input name="email" type="email" class="email" id="email" required>
+                        </div>
+                    </div>
+                    <textarea name="message" class="textMessage" id="textMessage" placeholder="Sua mensagem..."
+                        rows="10" required></textarea>
+                    <button type="submit" class="buttonForm">Enviar</button>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://joaopaulorocha.com">
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="content footer">
+                <img src="img/logoWhite.png">
+                <p>Copyright ©️ 2023. Desenvolvido por João Paulo Medeiros Rocha</p>
+
+                <div class="infoContact">
+                    <div>
+                        <ion-icon id="mail-outline" name="mail-outline"></ion-icon>
+                        <a href="mailto:rochajp000@outlook.com" target="_blank">
+                            <p>rochajp000@outlook.com</p>
+                        </a>
+                    </div>
+                    <div>
+                        <ion-icon id="logo-whatsapp" name="logo-whatsapp"></ion-icon>
+                        <a href="https://web.whatsapp.com/send?phone=85998131689" target="_blank">
+                            <p>(85)99813-1689</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="code/script.js"></script>
+    <script src="code/menu.js"></script>
+    <script src="code/scrollReveal.js"></script>
+    <script src="code/translate.js"></script>
+    <script src="code/projects.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

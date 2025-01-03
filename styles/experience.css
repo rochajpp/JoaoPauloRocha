@@ -1,0 +1,35 @@
+#experience{
+    flex-direction: column;
+    padding: 4rem 1rem;
+}
+
+.experience{
+    padding: 4rem 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+}
+
+.boxExperience{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px black;
+}
+
+.boxExperience img{
+    width: 5rem;
+ 
+}
+
+.infoExperience ul{
+    display: flex;
+    
+    margin-left: 1rem;
+}
